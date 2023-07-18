@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Libre+Baskerville:wght@700&display=swap');
+
+.login{
+    height: 100%;
+    background-color: #F4F1ED;
+}
+.icon{
+    width: 7%;
+    margin: 10px 10px 10px 10px;
+}
+.logoname{
+    width:clamp(12.5rem, 4.6875rem + 25vw, 18.75rem);
+   margin-left: 40%;
+   margin-bottom: 3%;
+}
+.login-items{
+    text-align: center;
+}
+ion-input{
+    width:350px;
+    margin: auto;
+    color: #003566;
+}
+ion-button{
+    width: 150px;
+    margin: 20px auto;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    background-color: #003566;
+    font-family: 'DM Sans', sans-serif;
+}
+ion-text{
+    margin: 20px 20px 40px auto;
+    color: #003566; 
+}
+a{
+    color: #752500;
+}

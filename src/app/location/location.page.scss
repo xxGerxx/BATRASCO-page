@@ -1,0 +1,26 @@
+ion-app{
+    height: 100vh;
+    background-color: #F4F1ED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ion-padding{
+    margin-left: 15%;
+}
+iframe{
+    margin: 5px 5px 5px 5px !important;
+}
+ion-fab-button{
+    background-color: #003566;
+    border-radius: 50px !important;
+}
+
+ion-menu::part(backdrop) {
+    background-color: rgb(244, 241, 237) ;
+}
+  
+ion-menu::part(container) {
+    border-radius: 0 20px 20px 0;
+    box-shadow: 4px 0px 16px rgb(97, 97, 97);
+}

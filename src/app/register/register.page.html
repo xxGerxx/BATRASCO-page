@@ -1,0 +1,41 @@
+<ion-app class="register">
+  <ion-fab slot="fixed" vertical="bottom" horizontal="end">
+    <ion-fab-button color="#003566">
+      <ion-icon name="chevron-up-circle"></ion-icon>
+    </ion-fab-button>
+    <ion-fab-list side="top">
+      <ion-fab-button color="#003566" routerLink="/home">
+        <ion-icon name="home-outline"></ion-icon>
+      </ion-fab-button>
+      <ion-fab-button color="#003566" routerLink="/login">
+        <ion-icon name="log-out-outline"></ion-icon>
+      </ion-fab-button>
+    </ion-fab-list>
+</ion-fab>
+  <ion-content>
+    <ion-col size="6">
+      <ion-card class="col1">
+        <ion-card-header>
+          <ion-card-title>Account Information</ion-card-title>
+        </ion-card-header>
+
+        <ion-card-content>
+          <ion-item>
+            <ion-input type="name" label="Name"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-input type="username" label="Username"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-input type="password" label="Password"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-input type="password" label="Confirm Password"></ion-input>
+          </ion-item>
+        </ion-card-content>
+        <ion-button routerLink= "/login" color= "#003566">Register</ion-button>
+      </ion-card>
+    </ion-col>
+  </ion-content>
+</ion-app>
+

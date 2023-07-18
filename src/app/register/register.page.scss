@@ -1,0 +1,53 @@
+
+ion-app{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F1ED;
+}
+ion-fab-button{
+    background-color: #003566;
+    border-radius: 50px !important;
+}
+.col1{
+    width: 420px;
+    height: 500px;
+    background-color: #003566;
+    margin:100px auto auto 550px;
+}
+
+ion-card-header{
+    font-size: 30px;
+    font-style: bold;
+    text-align: center;
+    color: black;
+}
+ion-card-title{
+    margin-top: 10px;
+    color: #FFFFFF;
+}
+ion-item{
+    width: 350px;
+    color: #FFFFFF;
+    margin:20px 20px auto;
+}
+ion-input{
+    width:250px;
+    margin: auto;
+    color: #752500;
+}
+ion-button{
+    width: 150px;
+    margin: 25px auto;
+    justify-content: center;
+    align-content: center;
+    display:flex;
+    color: #FFFFFF;
+    background-color: #752500;
+}
+@media (max-width: 767px) {
+    .col1 {
+      margin:auto;
+    }
+  }

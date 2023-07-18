@@ -1,0 +1,19 @@
+<div class="login">
+  
+  <img src="../../assets/icon.png" class="icon"><br/>
+  <img src="../../assets/login-logo.png" class="logoname">
+
+    <div class="login-items">
+      <ion-text>Sign in to continue</ion-text>
+
+      <ion-input [(ngModel)]="username" label="Username" label-placement="floating" fill="outline" placeholder="Username"></ion-input><br/>
+      <ion-input [(ngModel)]="password" label="Password" label-placement="floating" fill="outline" placeholder="Password" type="password"></ion-input>
+
+
+      <ion-button color= "#003566" (click)="signinButton()">LOGIN</ion-button>
+      <ion-text>Don't have an account yet?</ion-text>
+
+      <a routerLink="/register">REGISTER</a>
+    </div> 
+
+</div>

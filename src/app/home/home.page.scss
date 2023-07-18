@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+
+img{
+  opacity: 0.5;
+}
+.container {
+  position: relative;
+}
+.text-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+.text {
+  color: white;
+  margin-top: 350px;
+}
+p{
+  margin-top: 220px;
+  font-family: 'Libre Baskerville', serif;
+  font-size: clamp(0.3125rem, -0.8594rem + 3.75vw, 1.25rem);
+}
+h1{
+  margin-top: 60px;
+  font-family: serif !important;
+  font-size: clamp(0.9375rem, -2.9688rem + 12.5vw, 4.0625rem);
+}
